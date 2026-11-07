@@ -1,0 +1,7 @@
+Eventos leídos: 2000000
+Eventos válidos: 1998179
+Relojes sospechosos: 1821
+GMV válido: USD 123018607.68
+GMV en cuarentena: USD 115306.98
+Grupos ventana-país: 360
+Referencia guardada en: verdad/windows.csv

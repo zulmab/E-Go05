@@ -1,0 +1,36 @@
+Conectado a Postgres
+Lateness permitida: 2m0s
+Evento: ev_73300ae50f5f8b59 | País: CL | USD: 113.54
+  Ocurrió: 2026-11-14T10:00:00.144Z | Llegó: 2026-11-14T10:00:00.152Z | Diferencia: 8ms
+  Ventana: [2026-11-14T10:00:00Z, 2026-11-14T10:05:00Z)
+  Monto en centavos: 11354
+  Reloj de procesamiento: 2026-11-14T10:00:00.152Z
+  Watermark: 2026-11-14T09:59:55.144Z
+Evento: ev_070a7f6ae61c11f6 | País: MX | USD: 154.88
+  Ocurrió: 2026-11-14T10:00:00.008Z | Llegó: 2026-11-14T10:00:00.271Z | Diferencia: 263ms
+  Ventana: [2026-11-14T10:00:00Z, 2026-11-14T10:05:00Z)
+  Monto en centavos: 15488
+  Reloj de procesamiento: 2026-11-14T10:00:00.271Z
+  Watermark: 2026-11-14T09:59:55.144Z
+Evento: ev_655d42d2b3ac05c6 | País: MX | USD: 8.63
+  Ocurrió: 2026-11-14T10:00:00.124Z | Llegó: 2026-11-14T10:00:00.347Z | Diferencia: 223ms
+  Ventana: [2026-11-14T10:00:00Z, 2026-11-14T10:05:00Z)
+  Monto en centavos: 863
+  Reloj de procesamiento: 2026-11-14T10:00:00.347Z
+  Watermark: 2026-11-14T09:59:55.144Z
+
+Eventos leídos: 2000000
+Eventos con reloj válido: 1998179
+Eventos en cuarentena por reloj: 1821
+GMV en cuarentena: USD 115306.98
+Watermark final: 2026-11-14T15:59:54.982Z
+
+--- Motor de ventanas ---
+Eventos aceptados: 1961808
+Eventos demasiado tardíos: 36371
+GMV demasiado tardío: USD 2224342.72
+Primeras emisiones: 360
+Correcciones: 26069
+Grupos finalizados: 360
+Grupos todavía activos: 0
+Máximo de grupos activos: 10

@@ -1,0 +1,10 @@
+# Entornos de Python
+.venv*/
+__pycache__/
+*.pyc
+
+# Datos generados
+data/*.jsonl
+
+# macOS
+.DS_Store

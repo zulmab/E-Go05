@@ -1,0 +1,14 @@
+Listo: data/eventos_tardios.jsonl
+Eventos totales: 2,000,000
+Relojes rotos (event_time en el futuro): 1,821
+Llegadas tardias entre los eventos con reloj sano:
+  > 10 s: 171,738 (8.59%)
+  > 2 min: 40,002 (2.00%)
+  > 30 min: 6,010 (0.30%)
+GMV y conteo por pais (solo eventos con reloj sano):
+  MX: 700,025 eventos, USD 43,107,300.48
+  AR: 398,890 eventos, USD 24,587,024.10
+  CO: 399,586 eventos, USD 24,574,505.76
+  CL: 299,668 eventos, USD 18,430,932.77
+  PE: 200,010 eventos, USD 12,318,844.57
+GMV total (reloj sano): USD 123,018,607.68

@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: hot_sale_go05
+      POSTGRES_USER: go05
+      POSTGRES_PASSWORD: go05_local
+    ports:
+      - "5435:5432"
+    volumes:
+      - postgres_go05_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U go05 -d hot_sale_go05"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_go05_data:

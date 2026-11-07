@@ -1,0 +1,25 @@
+?   	e-go05/cmd/check-clock	[no test files]
+?   	e-go05/cmd/processor	[no test files]
+?   	e-go05/cmd/truth	[no test files]
+?   	e-go05/internal/clock	[no test files]
+?   	e-go05/internal/money	[no test files]
+?   	e-go05/internal/storage	[no test files]
+?   	e-go05/internal/window	[no test files]
+=== RUN   TestWindowBoundaries
+=== RUN   TestWindowBoundaries/start_included
+=== RUN   TestWindowBoundaries/just_before_end
+=== RUN   TestWindowBoundaries/end_belongs_to_next_window
+--- PASS: TestWindowBoundaries (0.00s)
+    --- PASS: TestWindowBoundaries/start_included (0.00s)
+    --- PASS: TestWindowBoundaries/just_before_end (0.00s)
+    --- PASS: TestWindowBoundaries/end_belongs_to_next_window (0.00s)
+=== RUN   TestLateEventCorrectsEmittedWindow
+--- PASS: TestLateEventCorrectsEmittedWindow (0.00s)
+=== RUN   TestFinalizedWindowRejectsLateEvent
+--- PASS: TestFinalizedWindowRejectsLateEvent (0.00s)
+=== RUN   TestFinishFinalizesAndReleasesState
+--- PASS: TestFinishFinalizesAndReleasesState (0.00s)
+=== RUN   TestBadClockDoesNotAdvanceWatermark
+--- PASS: TestBadClockDoesNotAdvanceWatermark (0.00s)
+PASS
+ok  	e-go05/tests	(cached)
